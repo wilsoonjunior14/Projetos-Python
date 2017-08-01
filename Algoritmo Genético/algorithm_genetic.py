@@ -11,10 +11,10 @@ quantidade = 100
 bits = 5
 geracoes = 100
 melhores = []
-selecionar = 80
+selecionar = 100
 
 # POPULACAO INICIAL
-populacao = np.random.randint(-5,5,quantidade)
+populacao = np.random.randint(-15,15,quantidade)
 print populacao
 
 
